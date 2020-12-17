@@ -5,7 +5,7 @@ interface Props {
     color?:string;
 }
 
-const StyledWrapper = styled.div<Props>`
+const StyledWrapper = styled.button<Props>`
     font: 17px/20px Helvetica Neue;  
     font-weight: 500;
     text-align: center;

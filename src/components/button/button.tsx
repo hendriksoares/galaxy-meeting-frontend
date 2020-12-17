@@ -2,10 +2,11 @@ import StyledWrapper from './button.style';
 
 interface Props {
     children: any,
+    type: any;
 }
 
-export const Button = ({children}: Props) => {
+export const Button = ({children, type}: Props) => {
     return(
-    <StyledWrapper>{children}</StyledWrapper>
+    <StyledWrapper type={type} >{children}</StyledWrapper>
     );
 }

@@ -1,13 +1,16 @@
-import { LoginCard, LoginLogo } from '@components/login';
+import { LoginCard } from '@components/login';
+import { InvilliaLogo } from '@components/invillia';
 import StyledWrapper from './login-page.style';
 
-export const LoginPage = () => {
+const LoginPage = () => {
     return (
         <StyledWrapper>
             <LoginCard></LoginCard>
-            <LoginLogo>
+            <InvilliaLogo>
                 <img src="/logo_invillia.png"/>
-            </LoginLogo>
+            </InvilliaLogo>
         </StyledWrapper>
     );
 }
+
+export default LoginPage;

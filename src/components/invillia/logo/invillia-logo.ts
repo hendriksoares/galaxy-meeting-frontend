@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const LoginLogo = styled.div`
+export const InvilliaLogo = styled.div`
     bottom: 90px;
     position: absolute;
     width: 100%;

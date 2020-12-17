@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledWrapper = styled.div`
+const StyledWrapper = styled.form`
     position: relative;
     z-index: 10;
     width: 608px;
