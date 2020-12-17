@@ -1,6 +1,5 @@
 module.exports = {
-    env: {
-      GALAXY_MEETING_API: 'http://localhost:3000',
-    },
-}
-  
+  env: {
+    GALAXY_MEETING_API: 'http://localhost:3000',
+  },
+};

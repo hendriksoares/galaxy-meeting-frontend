@@ -1,18 +1,28 @@
-import styled from "styled-components";
-
+import styled from 'styled-components';
 
 export const StyledWrapper = styled.div`
-    z-index: 30px;
-    width: 35px;
-    height: 35px;
-    border: 2px solid #FA00C0;
-    border-radius:50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 30px;
+  width: 35px;
+  height: 35px;
+
+  margin: 4px;
+  img {
+    border: 2px solid #fa00c0;
+    border-radius: 50%;
     overflow: hidden;
-    margin: 4px;
-    img {
-        width: 100%;
-        height: 100%;
-    }
+    width: 100%;
+    height: 100%;
+  }
+  .nick {
+    font: 11px/13px Helvetica Neue;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 30;
+  }
 `;
 
 export default StyledWrapper;
