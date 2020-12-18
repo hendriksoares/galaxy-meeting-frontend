@@ -21,6 +21,7 @@ export const PlanetInfo = ({ planetId, link }: Props) => {
       body: JSON.stringify({ planetId }),
       headers,
     });
+
     router.reload();
   };
 

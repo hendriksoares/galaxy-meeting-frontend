@@ -1,6 +1,7 @@
 import { Provider } from 'react-redux';
 import type { AppProps } from 'next/app';
 import { AuthProvider, ProtectRoute } from 'contexts/auth.context';
+import 'styles/globals.css';
 
 import store from '../store/index';
 

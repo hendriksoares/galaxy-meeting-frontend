@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
+import LoginPage from './login';
 
 export default function Home() {
-  const router = useRouter();
-  return router.push('/login');
+  return <LoginPage />;
 }
