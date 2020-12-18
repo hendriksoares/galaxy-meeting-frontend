@@ -1,6 +1,8 @@
 # Galaxy Meeting 
 
-This is Next.js project frontend to consume a API Galaxy Meeting. This project is a galaxy of conferences where the traveler can navigate between galaxies and planets to interact through videoconference.
+This is Next.js project frontend to consume a API Galaxy Meeting [https://github.com/hendriksoares/galaxy-meeting-backend]. 
+
+This project is a galaxy of conferences where the traveler can navigate between galaxies and planets to interact through videoconference.
 
 ## Install Dependencies
 
